@@ -1,0 +1,62 @@
+@media screen and (max-width:1000px){
+
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        margin: 12px 0;
+    }
+    nav ul{
+        justify-content: center;
+        padding: 0;
+        height: 35px;
+    }
+    .search{
+        justify-content: center;
+        padding: 0;
+    }
+    .slider{
+        height: 15vh;
+    }
+    .segment img{
+        height: 200px;
+        width: 200px;
+    }
+ 
+ 
+}
+
+@media screen and (max-width:900px){
+    .segment img{
+        height: 170px;
+        width: 170px;
+    }
+}
+@media screen and (max-width:700px){
+    .segment img{
+        height: 150px;
+        width: 150px;
+    }
+}
+@media screen and (max-width:400px){
+  .card-segment{
+    display: grid;
+    grid-template-columns: 150px 150px;
+   
+    
+  }
+  .segment img{
+    height: 110px;
+    width: 110px;
+    
+}
+
+.segment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+}
+

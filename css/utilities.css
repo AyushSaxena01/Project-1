@@ -1,0 +1,22 @@
+.flex-all-center{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+hr{
+    background-color: rgb(233, 233, 233);
+    height: 3px;
+    border: 0;
+    
+}
+.text-center{
+    text-align: center;
+}
+.discount{
+    color: #388e3c;
+}
+.segment img{
+    min-height: 100px;
+    min-width: 100px;
+}
